@@ -14,6 +14,15 @@ public class Car_OOP {
         uchburchak.tomonikki(4);
         uchburchak.tomonuch(5);
 
+        System.out.println("-----------------------------------");
+
+        // 3- Person
+        Person person=new Person();
+        person.name("Alixon");
+        person.age(22);
+        person.job("Buxgalter");
+
+
 
     }
 }
