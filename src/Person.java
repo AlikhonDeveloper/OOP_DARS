@@ -1,17 +1,31 @@
 public class Person {
-    public void name(String name){
-        System.out.println("Salom "+ name + " Mohirdevga xushlibsiz !");
+    public Person(){
+
     }
-    public void age (int age ){
-        if(age <7){
-            System.out.println("Siz hali maktabda o'qiy olmaysiz");
-        }
-        else if (age >7 && age <18 ){
-            System.out.println("Siz maktabda o'qiysiz ");
-        }
-        else System.out.println("Siz maktabdi tamomlagansiz . good luck !");
+    public Person(int a,String name1){
+        this.a=a;
+
+       this.name1=name1;
+
     }
-    public void job(String job){
-        System.out.println("Sizning kasbingiz "+ job  );
+    public Person(int a,String name1,int b){
+        this.a=a;
+        this.name1=name1;
+        this.b=b;
+
+
+
     }
+
+    int a;
+    String name1;
+    int b;
+    public void print(){
+        System.out.println("Salom mening yoshim "+a+" Ismim "+name1+" "+ b);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Alixon");
+    }
+
 }
