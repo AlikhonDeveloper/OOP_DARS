@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Game {
+import javax.swing.*;
+
+public class Game {
+
+
 }
